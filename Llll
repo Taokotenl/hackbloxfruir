@@ -1,6 +1,6 @@
 --[[
 
-local DEVIL_UI_Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/Taokotenl/hackbloxfruir/main/Llll", true))()
+local DEVIL_UI_Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/Prajon/UI-Stuffs/main/DEVIL-Ui-Lib", true))()
 
 local Window = DEVIL_UI_Library:CreateWindow("DEVIL Script", game:GetService("MarketplaceService"):GetProductInfo(game.PlaceId).Name)
 
@@ -113,14 +113,14 @@ function DEVIL_UI_Library:CreateWindow(GuiName, GameName)
 
     HubName.Name = "HubName"
     HubName.Parent = GameNameFrame
-    HubName.BackgroundColor3 = Color3.fromRGB(116, 0, 0)
+    HubName.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
     HubName.BackgroundTransparency = 1.000
     HubName.Position = UDim2.new(0.0200000014, 0, 0, 0)
     HubName.Size = UDim2.new(0, 490, 0, 40)
     HubName.Font = Enum.Font.Cartoon
     HubName.Text = GuiName.." : "..GameName
     HubName.TextTransparency = 0.3
-    HubName.TextColor3 = Color3.fromRGB(144, 0, 0)
+    HubName.TextColor3 = Color3.fromRGB(255, 255, 255)
     HubName.TextSize = 23.000
     HubName.TextStrokeTransparency = 0.900
     HubName.TextWrapped = true
@@ -260,7 +260,7 @@ function DEVIL_UI_Library:CreateWindow(GuiName, GameName)
 
         tabButton.Name = "tabButton"
         tabButton.Parent = allTabs
-        tabButton.BackgroundColor3 = Color3.fromRGB(116, 0, 0)
+        tabButton.BackgroundColor3 = Color3.fromRGB(20, 20, 20)
         tabButton.BorderSizePixel = 0
         tabButton.Position = UDim2.new(-0.00351155549, 0, 0.134228438, 0)
         tabButton.Size = UDim2.new(0, 110, 0, 25)
@@ -279,7 +279,7 @@ function DEVIL_UI_Library:CreateWindow(GuiName, GameName)
         newPage.Name = "newPage"
         newPage.Parent = pagesFolder
         newPage.Active = true
-        newPage.BackgroundColor3 = Color3.fromRGB(116, 0, 0)
+        newPage.BackgroundColor3 = Color3.fromRGB(50, 50, 50)
         newPage.BorderSizePixel = 0
         newPage.Position = UDim2.new(-0.0290697813, 10, -0.00233905017, 0)
         newPage.Size = UDim2.new(0, 355, 0, 185)
