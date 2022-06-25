@@ -1,6 +1,6 @@
 --[[
 
-local DEVIL_UI_Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/Prajon/UI-Stuffs/main/DEVIL-Ui-Lib", true))()
+local DEVIL_UI_Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/Taokotenl/hackbloxfruir/main/Llll", true))()
 
 local Window = DEVIL_UI_Library:CreateWindow("DEVIL Script", game:GetService("MarketplaceService"):GetProductInfo(game.PlaceId).Name)
 
