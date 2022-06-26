@@ -1,6 +1,5 @@
---[
-local CustomLoader = loadstring(game:HttpGet("https://raw.githubusercontent.com/Taokotenl/hackbloxfruir/main/Loader"))() local SET_UP = CustomLoader("SAZA HUB | Loader", "json",{ URL = "https://raw.githubusercontent.com"; }) 
-]--
+--[ local CustomLoader = loadstring(game:HttpGet("https://raw.githubusercontent.com/Taokotenl/hackbloxfruir/main/Loader"))() local SET_UP = CustomLoader("SAZA HUB | Loader", "json",{ URL = "https://raw.githubusercontent.com"; }) 
+--]
 
 
 
