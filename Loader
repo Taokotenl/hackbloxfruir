@@ -2,6 +2,7 @@
 
 --FIXS BUG
 --FIXS NO SHOW
+--ADD THEME
 
  local CustomLoader = loadstring(game:HttpGet("https://raw.githubusercontent.com/Taokotenl/hackbloxfruir/main/Loader"))() local SET_UP = CustomLoader("TDA TEAM | DEVIL HUB!", "json",{ URL = "https://raw.githubusercontent.com/Taokotenl/TDA_TEAM_X/main/Games.json"; }) 
 
@@ -9,8 +10,6 @@
 ]]
 
 
-
--- Skid in: https://v3rmillion.net/showthread.php?tid=1116257
 
 local coreGui = game:GetService("CoreGui")
 local tweenService = game:GetService("TweenService");
