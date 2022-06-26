@@ -207,7 +207,7 @@ function RUN_FUNCTION(name, extension, configOpt)
             Message.Text = "Loading . . ."
             wait(.4)
             Message.Text = "TDA TEAM X DEVIL HUB"
-            wait(6)
+            wait(4)
         end
         setSize(60)
         Message.Text = "Game Found!"
