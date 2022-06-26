@@ -492,7 +492,7 @@ function DEVIL_UI_Library:CreateWindow(GuiName, GameName)
 
             PageToggleFrame.Name = "PageToggleFrame"
             PageToggleFrame.Parent = newPage
-            PageToggleFrame.BackgroundColor3 = Color3.fromRGB(30, 30, 30)
+            PageToggleFrame.BackgroundColor3 = Color3.fromRGB(0, 255, 0)
             PageToggleFrame.BorderSizePixel = 0
             PageToggleFrame.Position = UDim2.new(0.0211267602, 0, 0.0235245991, 0)
             PageToggleFrame.Size = UDim2.new(0, 340, 0, 25)
