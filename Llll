@@ -492,7 +492,7 @@ function DEVIL_UI_Library:CreateWindow(GuiName, GameName)
 
             PageToggleFrame.Name = "PageToggleFrame"
             PageToggleFrame.Parent = newPage
-            PageToggleFrame.BackgroundColor3 = Color3.fromRGB(0, 255, 0)
+            PageToggleFrame.BackgroundColor3 = Color3.fromRGB(30, 30, 03)
             PageToggleFrame.BorderSizePixel = 0
             PageToggleFrame.Position = UDim2.new(0.0211267602, 0, 0.0235245991, 0)
             PageToggleFrame.Size = UDim2.new(0, 340, 0, 25)
@@ -514,7 +514,7 @@ function DEVIL_UI_Library:CreateWindow(GuiName, GameName)
 
             ToggleButton.Name = "ToggleButton"
             ToggleButton.Parent = PageToggleFrame
-            ToggleButton.BackgroundColor3 = Color3.fromRGB(60, 60, 60)
+            ToggleButton.BackgroundColor3 = Color3.fromRGB(0, 255, 0)
             ToggleButton.Position = UDim2.new(0.911764681, 0, 0.0799999982, 0)
             ToggleButton.Size = UDim2.new(0, 20, 0, 20)
             ToggleButton.Font = Enum.Font.SourceSans
