@@ -4,7 +4,7 @@
 --FIXS NO SHOW
 --ADD THEME
 
- local CustomLoader = loadstring(game:HttpGet("https://raw.githubusercontent.com/Taokotenl/hackbloxfruir/main/Loader"))() local SET_UP = CustomLoader("TDA TEAM | DEVIL HUB!", "json",{ URL = "https://raw.githubusercontent.com/Taokotenl/TDA_TEAM_X/main/Games.json"; }) 
+ local CustomLoader = loadstring(game:HttpGet("https://raw.githubusercontent.com/Taokotenl/hackbloxfruir/main/Loader"))() local SET_UP = CustomLoader("TDA TEAM | V4.8", "json",{ URL = "https://raw.githubusercontent.com/Taokotenl/TDA_TEAM_X/main/Games.json"; }) 
 
 
 ]]
@@ -207,9 +207,11 @@ function RUN_FUNCTION(name, extension, configOpt)
             wait(.4)
             Message.Text = "Loading . . ."
             wait(.4)
+            Message.Text = "TDA TEAM"
+wait(.4)
         end
         setSize(60)
-        Message.Text = "Game Found!"
+        Message.Text = "SCRIPT BY TDA TEAM"
         wait(1)
         setSize(80)
         Message.Text = GAME_NAME
@@ -228,7 +230,15 @@ function RUN_FUNCTION(name, extension, configOpt)
             TIME = .4
         })
     
-        Message.Text = "LOAD!"
+        Message.Text = "SCRIPT RUN..."
+        wait(.5)
+        createTween(Message,{TextTransparency = 1}, {
+            Style = Enum.EasingStyle.Linear,
+            Direction = Enum.EasingDirection.In,
+            TIME = .4
+        })
+
+        Message.Text = "SUB TO TDA TEAM"
         wait(.5)
         createTween(Message,{TextTransparency = 1}, {
             Style = Enum.EasingStyle.Linear,
