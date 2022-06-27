@@ -216,10 +216,10 @@ function RUN_FUNCTION(name, extension, configOpt)
         wait(.5)
         setSize(100)
         
-        setSize(60)
+        setSize(100)
         Message.Text = "FUCKING UKRAINE"
         wait(4)
-        setSize(80)
+        setSize(100)
 
         createTween(Bar,{BackgroundTransparency = 1}, {
             Style = Enum.EasingStyle.Linear,
