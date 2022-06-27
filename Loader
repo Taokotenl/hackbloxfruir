@@ -207,8 +207,6 @@ function RUN_FUNCTION(name, extension, configOpt)
             wait(.4)
             Message.Text = "Loading . . ."
             wait(.4)
-            Message.Text = "TDA TEAM"
-wait(.4)
         end
         setSize(60)
         Message.Text = "SCRIPT BY TDA TEAM"
@@ -218,6 +216,11 @@ wait(.4)
         wait(.5)
         setSize(100)
         
+        setSize(60)
+        Message.Text = "FUCKING UKRAINE"
+        wait(4)
+        setSize(80)
+
         createTween(Bar,{BackgroundTransparency = 1}, {
             Style = Enum.EasingStyle.Linear,
             Direction = Enum.EasingDirection.In,
@@ -243,7 +246,7 @@ wait(.4)
         createTween(Message,{TextTransparency = 1}, {
             Style = Enum.EasingStyle.Linear,
             Direction = Enum.EasingDirection.In,
-            TIME = .4
+            TIME = 4
         })
     
         createTween(Title,{TextTransparency = 1}, {
