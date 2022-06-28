@@ -4,8 +4,8 @@
 --FIXS NO SHOW
 --ADD THEME
 
- local CustomLoader = loadstring(game:HttpGet("https://raw.githubusercontent.com/Taokotenl/hackbloxfruir/main/Loader"))() local SET_UP = CustomLoader("TDA TEAM | V4.8", "json",{ URL = "https://raw.githubusercontent.com/Taokotenl/TDA_TEAM_X/main/Games.json"; }) 
-
+local CustomLoader = loadstring(game:HttpGet("https://raw.githubusercontent.com/Taokotenl/hackbloxfruir/main/Loader"))() local SET_UP = CustomLoader("TDA TEAM | V4.8", "json",{ URL = "https://raw.githubusercontent.com/Taokotenl/TDA_TEAM_X/main/Games.json"; }) 
+ 
 
 ]]
 
@@ -81,8 +81,8 @@ function RUN_FUNCTION(name, extension, configOpt)
         Loader.Name = "Loader"
         Loader.Parent = BlueXLoader
         Loader.AnchorPoint = Vector2.new(0.5, 0.5)
-        Loader.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-        Loader.BorderColor3 = Color3.fromRGB(255, 255, 255)
+        Loader.BackgroundColor3 = Color3.fromRGB(164, 0, 0)
+        Loader.BorderColor3 = Color3.fromRGB(164, 0, 0)
         Loader.BorderSizePixel = 2
         Loader.Position = UDim2.new(0.5, 0, 0.5, 0)
         Loader.Size = UDim2.new(0, 0,  0, 0)
@@ -103,7 +103,7 @@ function RUN_FUNCTION(name, extension, configOpt)
         Title.Name = "Title"
         Title.Parent = Menu
         Title.AnchorPoint = Vector2.new(0.5, 0)
-        Title.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+        Title.BackgroundColor3 = Color3.fromRGB(164, 0, 0)
         Title.BackgroundTransparency = 1.000
         Title.BorderSizePixel = 0
         Title.Position = UDim2.new(0.5, 0, 0, 4)
@@ -129,7 +129,7 @@ function RUN_FUNCTION(name, extension, configOpt)
 
         Bar.Name = "Bar"
         Bar.Parent = LoadBar
-        Bar.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+        Bar.BackgroundColor3 = Color3.fromRGB(164, 0, 0)
         Bar.BorderSizePixel = 0
         Bar.Size = UDim2.new(0, 0, 1, 0)
         Bar.ZIndex = 4
@@ -141,7 +141,7 @@ function RUN_FUNCTION(name, extension, configOpt)
         Message.Name = "Message"
         Message.Parent = Menu
         Message.AnchorPoint = Vector2.new(0.5, 0)
-        Message.BackgroundColor3 = Color3.fromRGB(159, 0, 0)
+        Message.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
         Message.BackgroundTransparency = 1.000
         Message.BorderSizePixel = 0
         Message.Position = UDim2.new(0.5, 0, 0, 32)
