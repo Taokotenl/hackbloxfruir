@@ -118,7 +118,7 @@ function RUN_FUNCTION(name, extension, configOpt)
         LoadBar.Name = "LoadBar"
         LoadBar.Parent = Menu
         LoadBar.AnchorPoint = Vector2.new(0.5, 0)
-        LoadBar.BackgroundColor3 = Color3.fromRGB(49, 49, 49)
+        LoadBar.BackgroundColor3 = Color3.fromRGB(66, 0, 255)
         LoadBar.BorderSizePixel = 0
         LoadBar.Position = UDim2.new(0.5, 0, 1, -28)
         LoadBar.Size = UDim2.new(1, -28, 0, 20)
